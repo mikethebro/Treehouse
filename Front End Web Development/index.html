@@ -3,80 +3,76 @@
   <head>
     <meta charset="utf-8">
     <title>Mike Ward</title>
+    <!-- normalizing css code -->
     <link rel="stylesheet" href="css/normalize.css">
-    <style>
-      nav a
-      {
-        color: white;
-        background-color: orange;
-      }
-    </style>
+    <!-- my css code - comes after to override normalize.css -->
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header>
-      <a href="index.html">
+      <a href="index.html" id="logo">
         <h1>Mike Ward</h1>
         <h2>Bro</h2>
       </a>
       <nav>
         <ul>
-          <li><a href="index.html">Portfolio</a></li>
+          <li><a href="index.html" class="selected">Portfolio</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section>
-      <ul>
-        <!-- image 1 -->
-        <li>
-          <a href="img/insta1.jpg">
-            <img src="img/insta1.jpg" alt="">
-            <p>Two Subarus and a schnazzy dude</p>
-          </a>
-        </li>
-        
-        <!-- image 2 -->
-        <li>
-          <a href="img/insta2.jpg">
-            <img src="img/insta2.jpg" alt="">
-            <p>Bear Lake</p>
-          </a>
-        </li>
-        
-        <!-- image 3 -->
-        <li>
-          <a href="img/insta3.jpg">
-            <img src="img/insta3.jpg" alt="">
-            <p>God's promise to us</p>
-          </a>
-        </li>
-        
-        <!-- image 4 -->
-        <li>
-          <a href="img/insta4.jpg">
-            <img src="img/insta4.jpg" alt="">
-            <p>Blue Car Convention</p>
-          </a>
-        </li>
-        
-        <!-- image 5 -->
-        <li>
-          <a href="img/insta5.jpg">
-            <img src="img/insta5.jpg" alt="">
-            <p>Painting or real life?</p>
-          </a>
-        </li>
-        
-        
-        
-      </ul>
-    </section>
-    <footer>
-      <a href="https://facebook.com/mikethebro"><img src="img/twitter-wrap.png" alt="Twitter Logo"></a>
-      <a href="https://facebook.com/mikethebro"><img src="img/facebook-wrap.png" alt="Facebook Logo"></a>
-      <p>&copy; 2017 Mike Ward</p>
-    </footer>
+    <div id="wrapper">
+      <section>
+        <ul>
+          <!-- image 1 -->
+          <li>
+            <a href="img/insta1.jpg">
+              <img src="img/insta1.jpg" alt="">
+              <p>Two Subarus and a schnazzy dude</p>
+            </a>
+          </li>
+          
+          <!-- image 2 -->
+          <li>
+            <a href="img/insta2.jpg">
+              <img src="img/insta2.jpg" alt="">
+              <p>Bear Lake</p>
+            </a>
+          </li>
+          
+          <!-- image 3 -->
+          <li>
+            <a href="img/insta3.jpg">
+              <img src="img/insta3.jpg" alt="">
+              <p>God's promise to us</p>
+            </a>
+          </li>
+          
+          <!-- image 4 -->
+          <li>
+            <a href="img/insta4.jpg">
+              <img src="img/insta4.jpg" alt="">
+              <p>Blue Car Convention</p>
+            </a>
+          </li>
+          
+          <!-- image 5 -->
+          <li>
+            <a href="img/insta5.jpg">
+              <img src="img/insta5.jpg" alt="">
+              <p>Painting or real life?</p>
+            </a>
+          </li>   
+          
+        </ul>
+      </section>
+      <footer>
+        <a href="https://facebook.com/mikethebro"><img src="img/twitter-wrap.png" alt="Twitter Logo"></a>
+        <a href="https://facebook.com/mikethebro"><img src="img/facebook-wrap.png" alt="Facebook Logo"></a>
+        <p>&copy; 2017 Mike Ward</p>
+      </footer>
+    </div>
   </body>
 </html>
 <!-- entities: https://dev.w3.org/html5/html-author/charref -->
